@@ -6,7 +6,7 @@ import { ImageCardProps } from "@/type"
 const ImageCard = ({image, onClick }: ImageCardProps) => {
   return (
     <div
-      className="relative group cursor-pointer transform transition hover:scale-105 rounded-md overflow-hidden w-[380px] h-[250px]"
+      className="relative group cursor-pointer transform transition hover:scale-105 rounded-md overflow-hidden w-auto h-[250px]"
       onClick={onClick}
     >
       <Image
